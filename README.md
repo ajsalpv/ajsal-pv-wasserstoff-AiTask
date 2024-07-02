@@ -44,8 +44,13 @@ Clear Conversation History:
 
 Use the "Clear Conversation History" button to reset the chatbot's memory and start a new session.
 Technologies Used
+
 Flask: Web framework for building the server-side application.
+
 LangChain: Framework for integrating language models, handling text processing, embeddings, and conversation memory.
+
 Hugging Face Transformers: Used for embeddings and language model integration.
+
 Beautiful Soup: Python library for web scraping.
+
 FAISS: Library for efficient similarity search and clustering of dense vectors.
