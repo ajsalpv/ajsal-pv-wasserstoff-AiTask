@@ -68,7 +68,7 @@ def embedding(texts):
     return vector_store
 
 # LLM and chain setup
-llm = HuggingFaceHub(repo_id="HuggingFaceH4/zephyr-7b-beta", huggingfacehub_api_token='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')
+llm = HuggingFaceHub(repo_id="HuggingFaceH4/zephyr-7b-beta", huggingfacehub_api_token='huggingface api key')
 prompt = ChatPromptTemplate.from_template("""
 You are an AI assistant integrated into a WordPress website, powered by a Retrieval-Augmented Generation (RAG) model. Your task is to retrieve relevant information from a large knowledge base and use that information to generate a final answer.
 
